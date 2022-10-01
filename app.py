@@ -15,4 +15,4 @@ time = 'Previous day count'
 
 if(time == 'Previous day count'):
     st.header("Previous day count")
-    st.bar_chart(data = ek_din, x = 'keyword' ,y = 'count')
+    st.bar_chart(data = ek_din, x = 'keyword', y = 'count')
